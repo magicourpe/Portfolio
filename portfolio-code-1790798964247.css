@@ -1,0 +1,74 @@
+:root {
+    --bg-main: #0a0f1d;
+    --card-bg: #111827;
+    --border-color: #1f2937;
+    --primary: #10b981;
+    --primary-hover: #34d399;
+    --text-main: #f3f4f6;
+    --text-muted: #9ca3af;
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    font-family: system-ui, -apple-system, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 24px;
+    width: 320px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.badge {
+    align-self: flex-start;
+    background-color: rgba(16, 185, 129, 0.15);
+    color: var(--primary);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    padding: 4px 10px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.card-body p {
+    margin: 8px 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.card-body strong {
+    color: var(--text-main);
+}
+
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--primary);
+    color: #060913;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover);
+}
