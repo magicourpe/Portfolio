@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luca Bogdanski · Portfolio BTS SIO SISR</title>
+<meta name="description" content="Portfolio E5 BTS SIO option SISR : projets, alternance, compétences et veille technologique.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap">
+<b>Luca Bogdanski</b>
+<a href="#accueil">Accueil</a><a href="#entreprise">Alternance</a><a href="#projets">Projets</a><a href="#competences">Compétences</a><a href="#synthese">Synthèse E5</a><a href="#veille">Veille</a><a href="#contact">CV &amp; Contact</a>
+</div></nav>
+
+<main>
+<section id="accueil" class="hero"><div class="wrap">
+<h1>Je construis et sécurise des infrastructures réseaux et systèmes.</h1>
+<p>Étudiant en 2<sup>e</sup> année de BTS SIO option SISR, en alternance au service informatique d'une entreprise pharmaceutique. Je viens d'un Bac Pro Systèmes Numériques (mention très bien) : le terrain d'abord, l'administration ensuite.</p>
+<div class="row"><a class="btn p" href="#projets">Voir mes projets</a><a class="btn" href="https://github.com/VOTRE-PSEUDO" target="_blank" rel="noopener">Mon GitHub</a></div>
+<div class="term" aria-label="Présentation en ligne de commande"><header><i></i><i></i><i></i></header><pre id="typed"></pre></div>
+
+<div class="bento" style="margin-top:48px">
+<div class="card s3 reveal"><h3>Parcours</h3><ul><li>Bac Pro SN : électronique, câblage, bases réseau</li><li>BTS SIO SISR : systèmes, réseaux, sécurité</li><li>Alternance en DSI et stages en mairie</li></ul></div>
+<div class="card s3 reveal"><h3>Projet professionnel</h3><p>Devenir administrateur systèmes et réseaux, puis me spécialiser en cybersécurité. Poursuite d'études envisagée : à compléter (Bachelor, licence pro, école d'ingénieurs…).</p></div>
+</div>
+</div></section>
+
+<section id="entreprise"><div class="wrap">
+<h2>Entreprise et alternance</h2>
+<p class="lead">Contexte professionnel de ma formation. Les informations sont volontairement anonymisées pour respecter la confidentialité.</p>
+<div class="bento">
+<div class="card s4 reveal"><h3>Entreprise d'accueil</h3><p>Entreprise du secteur pharmaceutique, service DSI. <em>À compléter : secteur, taille, nombre de sites, sans donnée sensible ni nom de serveur ou d'adresse IP réels.</em></p>
+<div class="fig">Organigramme simplifié du service (à ajouter : assets/img/organigramme.png)</div></div>
+<div class="card s2 reveal"><h3>Équipe</h3><p>Équipe DSI : support, systèmes, réseau. Mon tuteur : <em>prénom + fonction</em>.</p></div>
+<div class="card s3 reveal"><h3>Missions systèmes et réseaux</h3><ul><li>Administration de serveurs Windows et Linux</li><li>Gestion des utilisateurs et des droits (Active Directory)</li><li>Gestion des actifs : commutateurs, routeurs, pare-feu, imprimantes</li><li>Automatisation par scripts PowerShell et Bash</li></ul></div>
+<div class="card s3 reveal"><h3>Expériences complémentaires</h3><ul><li>Deux stages de 6 semaines, service informatique d'une mairie (2024 et 2025) : dépannage, gestion de tickets</li><li>Installation électrique courant fort et faible, entreprise familiale (2023 à 2025)</li></ul></div>
+</div></div></section>
+
+<section id="projets"><div class="wrap">
+<h2>Projets et documentations</h2>
+<p class="lead">Chaque projet détaille le contexte, l'objectif, mon rôle, les technologies et les livrables. Remplacez les liens par vos dépôts.</p>
+<div class="bento">
+<article class="card s3 proj reveal"><h3>Infrastructure réseau d'entreprise</h3>
+<div class="fig">Schéma réseau (assets/img/reseau.png)</div>
+<dl><dt>Contexte</dt><dd>Scénario de formation : site fictif à équiper.</dd><dt>Objectif</dt><dd>Concevoir, installer, tester et déployer une infrastructure complète.</dd><dt>Mon rôle</dt><dd>Conception, configuration, tests de recette.</dd></dl>
+<div class="tags"><span>Cisco</span><span>VLAN</span><span>Routage</span><span>Pare-feu</span></div>
+<div class="row"><a class="btn" href="assets/docs/projet-reseau.pdf">Documentation PDF</a><a class="btn" href="https://github.com/VOTRE-PSEUDO/projet-reseau" target="_blank" rel="noopener">Dépôt GitHub</a></div></article>
+
+<article class="card s3 proj reveal"><h3>Annuaire Active Directory</h3>
+<div class="fig">Capture de la console (assets/img/ad.png)</div>
+<dl><dt>Contexte</dt><dd>Domaine à gérer pour une PME fictive.</dd><dt>Objectif</dt><dd>Centraliser utilisateurs, groupes et droits d'accès.</dd><dt>Mon rôle</dt><dd>Installation, structuration des OU, stratégies de groupe.</dd></dl>
+<div class="tags"><span>Windows Server 2022</span><span>AD</span><span>GPO</span></div>
+<div class="row"><a class="btn" href="assets/docs/projet-ad.pdf">Documentation PDF</a><a class="btn" href="https://github.com/VOTRE-PSEUDO/projet-ad" target="_blank" rel="noopener">Dépôt GitHub</a></div></article>
+
+<article class="card s3 proj reveal"><h3>Téléphonie IP avec Asterisk</h3>
+<div class="fig">Schéma de la VoIP (assets/img/voip.png)</div>
+<dl><dt>Contexte</dt><dd>Besoin de communications internes sur IP.</dd><dt>Objectif</dt><dd>Déployer un serveur Asterisk et raccorder des téléphones Cisco.</dd><dt>Mon rôle</dt><dd>Installation, plan de numérotation, tests d'appels.</dd></dl>
+<div class="tags"><span>Asterisk</span><span>Debian</span><span>Téléphone IP Cisco</span></div>
+<div class="row"><a class="btn" href="assets/docs/projet-asterisk.pdf">Documentation PDF</a><a class="btn" href="https://github.com/VOTRE-PSEUDO/projet-asterisk" target="_blank" rel="noopener">Dépôt GitHub</a></div></article>
+
+<article class="card s3 proj reveal"><h3>Virtualisation et scripts d'automatisation</h3>
+<div class="fig">Capture Hyper-V ou VMware (assets/img/virt.png)</div>
+<dl><dt>Contexte</dt><dd>Environnements de test rapides à reproduire.</dd><dt>Objectif</dt><dd>Virtualiser les serveurs et automatiser les tâches répétitives.</dd><dt>Mon rôle</dt><dd>Création des VM, écriture des scripts.</dd></dl>
+<div class="tags"><span>Hyper-V</span><span>VMware</span><span>PowerShell</span><span>Bash</span></div>
+<div class="row"><a class="btn" href="assets/docs/projet-scripts.pdf">Documentation PDF</a><a class="btn" href="https://github.com/VOTRE-PSEUDO/scripts" target="_blank" rel="noopener">Dépôt GitHub</a></div></article>
+</div></div></section>
+
+<section id="competences"><div class="wrap">
+<h2>Compétences acquises</h2>
+<p class="lead">Cliquez sur « Cas réel » pour voir où chaque compétence a été mise en pratique.</p>
+<div class="bento">
+<div class="card s2 reveal"><h3>Réseau Cisco</h3><p>Commutateurs, routeurs, points d'accès.</p><details><summary>Cas réel</summary><p>Projet d'infrastructure réseau : configuration et tests. <em>À préciser.</em></p></details></div>
+<div class="card s2 reveal"><h3>Windows Server</h3><p>Windows Server 2022, Active Directory, droits d'accès.</p><details><summary>Cas réel</summary><p>Gestion des comptes et habilitations. <em>À préciser.</em></p></details></div>
+<div class="card s2 reveal"><h3>Linux Debian</h3><p>Debian 12 et 13, administration en ligne de commande.</p><details><summary>Cas réel</summary><p>Serveur Asterisk. <em>À préciser.</em></p></details></div>
+<div class="card s2 reveal"><h3>Virtualisation</h3><p>Hyper-V et VMware.</p><details><summary>Cas réel</summary><p>Laboratoire de tests. <em>À préciser.</em></p></details></div>
+<div class="card s2 reveal"><h3>Scripts</h3><p>PowerShell et Bash pour automatiser les tâches.</p><details><summary>Cas réel</summary><p>Scripts du dépôt GitHub. <em>À préciser.</em></p></details></div>
+<div class="card s2 reveal"><h3>Sécurité</h3><p>Pare-feu, habilitations, droits d'accès.</p><details><summary>Cas réel</summary><p>Règles de filtrage et gestion des droits. <em>À préciser.</em></p></details></div>
+<div class="card s3 reveal"><h3>Support et assistance</h3><p>Dépannage, gestion de tickets, parc d'ordinateurs.</p></div>
+<div class="card s3 reveal"><h3>Gestion de projet</h3><p>GanttProject, atelier de professionnalisation.</p></div>
+</div></div></section>
+
+<section id="synthese"><div class="wrap">
+<h2>Tableau de synthèse E5</h2>
+<p class="lead">Version à jour, à consulter ou à télécharger.</p>
+<div class="card reveal">
+<div class="row"><a class="btn p" href="assets/docs/tableau-synthese-E5.pdf" download>Télécharger le PDF</a><a class="btn" href="assets/docs/tableau-synthese-E5.pdf" target="_blank" rel="noopener">Ouvrir dans un onglet</a></div>
+<object data="assets/docs/tableau-synthese-E5.pdf" type="application/pdf" width="100%" height="520" style="margin-top:16px;border-radius:10px"><p>Aperçu indisponible : utilisez le bouton de téléchargement.</p></object>
+</div></div></section>
+
+<section id="veille"><div class="wrap">
+<h2>Veille technologique</h2>
+<p class="lead">Ma démarche : suivre régulièrement des sources fiables, trier par thème, noter ce qui concerne mon environnement de travail. Sources et outils : à compléter (flux RSS, agrégateur, alertes, newsletters, sites officiels des éditeurs).</p>
+<div class="filters" id="filters" role="group" aria-label="Filtrer par thème"></div>
+<div class="grid3" id="articles"></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>CV et contact</h2>
+<div class="bento" style="margin-top:20px">
+<div class="card s3 reveal"><h3>Mon CV</h3><p>Version PDF à jour.</p><div class="row" style="margin-top:14px"><a class="btn p" href="assets/docs/CV-Luca-Bogdanski.pdf" download>Télécharger le CV</a><a class="btn" href="assets/docs/CV-Luca-Bogdanski.pdf" target="_blank" rel="noopener">Voir le CV</a></div>
+<div class="row" style="margin-top:22px"><a class="btn" href="https://github.com/VOTRE-PSEUDO" target="_blank" rel="noopener">GitHub</a><a class="btn" href="https://www.linkedin.com/in/VOTRE-PROFIL" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="mailto:bogdanski.luca0@gmail.com">Écrire un e-mail</a></div></div>
+<div class="card s3 reveal"><h3>Envoyer un message</h3>
+<form action="https://formspree.io/f/VOTRE_ID" method="POST">
+<div><label for="n">Nom</label><input id="n" name="name" required autocomplete="name"></div>
+<div><label for="e">E-mail</label><input id="e" name="email" type="email" required autocomplete="email"></div>
+<div><label for="m">Message</label><textarea id="m" name="message" rows="4" required></textarea></div>
+<button class="btn p" type="submit">Envoyer le message</button></form></div>
+</div></div></section>
+</main>
+<footer><div class="wrap">© 2026 Luca Bogdanski · Portfolio BTS SIO SISR · Aucune donnée confidentielle d'entreprise n'est publiée sur ce site.</div></footer>
+<script src="script.js"></script>
+</body>
+</html>
